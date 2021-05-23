@@ -1,0 +1,35 @@
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+}
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(133, 30, 30, 0.3);
+  border-radius: 100px;
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.activeClass {
+  /* background: #ff615a; */
+  background-color: red;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.inactiveClass {
+  margin: 10px;
+  color: #414040;
+}
+
+.ant-layout-header {
+  background: #efefef;
+}
